@@ -1,4 +1,4 @@
-require "group_anagrams"
+require_relative "../lib/group_anagrams"
 
 describe "#group_anagrams" do
   it "should return an empty array if empty array is given" do

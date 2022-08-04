@@ -1,4 +1,4 @@
-require "roman_to_integer"
+require_relative "../lib/roman_to_integer"
 
 describe "#roman_to_integer" do
 

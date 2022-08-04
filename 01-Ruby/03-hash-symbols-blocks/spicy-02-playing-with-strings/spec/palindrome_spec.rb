@@ -1,4 +1,4 @@
-require "palindrome"
+require_relative "../lib/palindrome"
 
 describe "#palindrome?" do
   it "should return false for an empty string" do
