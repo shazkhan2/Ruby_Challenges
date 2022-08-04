@@ -50,12 +50,12 @@ Let's modify our method to make it happen!
 
 #### Back to the kitchen
 
-`yield` is the keyword you need to execute the block, it will take place in your method to apply on-demand instructions to the patty.
+`block.call` is the expression you need to execute the block, it will take place in your method to apply on-demand instructions to the patty.
 
 ![Side note](https://raw.githubusercontent.com/lewagon/fullstack-images/master/ruby/burger-restaurant-yield.svg?sanitize=true)
 
 Upgrade `burger` to welcome a block:
-- Place `yield` where you want to invoke the block
+- Place `block.call` where you want to invoke the block
 - The block will transform the `patty` only
 
 The method must work **with or without a block**. Use the [`block_given?`](https://ruby-doc.org/core-2.7.0/Kernel.html#method-i-block_given-3F) method to detect if a block has been given to `burger` during its call.
