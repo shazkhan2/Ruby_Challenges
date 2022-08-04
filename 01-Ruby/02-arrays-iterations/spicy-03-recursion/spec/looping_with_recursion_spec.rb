@@ -1,11 +1,11 @@
-require "looping_with_recursion"
+require_relative "../lib/looping_with_recursion"
 
 class Range
-  undef :each, :sum, :map, :reduce
+  undef :sum
 end
 
 class Array
-  undef :each, :sum, :map, :reduce
+  undef :sum
 end
 
 describe "#sum_recursive" do
