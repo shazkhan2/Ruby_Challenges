@@ -1,4 +1,4 @@
-require 'happy_number'
+require_relative '../lib/happy_number'
 
 
 describe '#happy_number' do

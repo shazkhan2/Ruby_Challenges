@@ -1,4 +1,4 @@
-require 'age_in_days'
+require_relative '../lib/age_in_days'
 
 describe '#age_in_days' do
 

@@ -1,5 +1,5 @@
 # Encoding: utf-8
-require 'awesomo'
+require_relative '../lib/awesomo'
 
 
 describe '#plot_generator' do

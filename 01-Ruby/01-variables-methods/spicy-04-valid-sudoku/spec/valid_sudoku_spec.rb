@@ -1,4 +1,4 @@
-require "valid_sudoku"
+require_relative "../lib/valid_sudoku"
 
 describe "#valid_section?" do
 

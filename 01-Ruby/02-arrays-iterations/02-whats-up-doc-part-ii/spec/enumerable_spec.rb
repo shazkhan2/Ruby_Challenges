@@ -1,4 +1,4 @@
-require "enumerable"
+require_relative "../lib/enumerable"
 
 describe "#sum_odd_indexed" do
 

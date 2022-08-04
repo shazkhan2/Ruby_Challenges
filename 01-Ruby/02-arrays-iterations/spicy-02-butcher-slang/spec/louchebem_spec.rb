@@ -1,4 +1,4 @@
-require "louchebem"
+require_relative "../lib/louchebem"
 
 describe "#louchebemize" do
 

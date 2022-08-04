@@ -1,4 +1,4 @@
-require "black_jack"
+require_relative "../lib/black_jack"
 
 describe "#pick_bank_score" do
   it "should return a number" do

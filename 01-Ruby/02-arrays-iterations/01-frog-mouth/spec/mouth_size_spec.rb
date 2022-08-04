@@ -1,5 +1,5 @@
 require 'rspec'
-require "mouth_size"
+require_relative "../lib/mouth_size"
 
 describe '#mouth_size' do
   it "opens up its mouth for a chicken" do

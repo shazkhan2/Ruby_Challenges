@@ -1,5 +1,5 @@
 # Encoding: utf-8
-require 'geller'
+require_relative '../lib/geller'
 
 
 describe '#add_two_numbers' do

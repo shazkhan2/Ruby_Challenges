@@ -1,4 +1,4 @@
-require "decoder"
+require_relative "../lib/decoder"
 
 describe "decoder" do
   it "should decode '.-'" do

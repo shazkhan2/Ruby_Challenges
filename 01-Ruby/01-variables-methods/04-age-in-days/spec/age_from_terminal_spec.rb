@@ -1,5 +1,5 @@
 require 'open3'
-require 'age_in_days'
+require_relative '../lib/age_in_days'
 
 describe 'Interface' do
 

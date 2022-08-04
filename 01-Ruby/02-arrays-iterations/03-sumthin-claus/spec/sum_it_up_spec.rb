@@ -1,4 +1,4 @@
-require "sum_it_up"
+require_relative "../lib/sum_it_up"
 
 class Range; undef :sum; end
 

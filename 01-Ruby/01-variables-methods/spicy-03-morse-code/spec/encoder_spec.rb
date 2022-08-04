@@ -1,4 +1,4 @@
-require "encoder"
+require_relative "../lib/encoder"
 
 describe "encoder" do
   it "should encode a simple letter, 'a'" do

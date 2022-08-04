@@ -1,5 +1,5 @@
 # Encoding: utf-8
-require 'complementary_dna'
+require_relative '../lib/complementary_dna'
 
 describe '#complementary_dna' do
 

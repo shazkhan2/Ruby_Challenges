@@ -1,4 +1,4 @@
-require "beer_song"
+require_relative "../lib/beer_song"
 
 describe "#beer_song" do
   it "should sing the beer song for one beer!" do

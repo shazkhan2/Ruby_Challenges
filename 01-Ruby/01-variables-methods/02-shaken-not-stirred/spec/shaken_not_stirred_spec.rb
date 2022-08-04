@@ -1,5 +1,5 @@
 require 'rspec'
-require 'shaken_not_stirred'
+require_relative '../lib/shaken_not_stirred'
 
 describe '#introduce_spy' do
   it "should generate the right introduction" do

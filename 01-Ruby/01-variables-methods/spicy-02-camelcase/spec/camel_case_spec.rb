@@ -1,4 +1,4 @@
-require 'camel_case'
+require_relative '../lib/camel_case'
 
 describe "camel_case" do
   it "should change a snake_case string to CamelCase" do

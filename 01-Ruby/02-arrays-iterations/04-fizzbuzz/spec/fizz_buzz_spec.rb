@@ -1,4 +1,4 @@
-require "fizz_buzz"
+require_relative "../lib/fizz_buzz"
 
 describe "fizz_buzz" do
   it "should return nil if passed a number below 1" do

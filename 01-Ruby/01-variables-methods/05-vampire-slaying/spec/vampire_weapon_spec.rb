@@ -1,4 +1,4 @@
-require 'vampire_weapon'
+require_relative '../lib/vampire_weapon'
 
 describe 'The method vampire_reaction' do
   it 'returns a String' do
