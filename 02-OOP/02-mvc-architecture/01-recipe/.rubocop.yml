@@ -1,0 +1,10 @@
+inherit_from:
+  - ../../../.rubocop.yml
+
+Lint/UselessAssignment:
+  Enabled: false
+Layout/IndentationStyle:
+  Enabled: true
+  EnforcedStyle: tabs
+Layout/IndentationWidth:
+  Enabled: false

@@ -18,5 +18,33 @@ describe "#analyze" do
     })
   end
 
-  # TODO: add more spec with external file and lots of paragraphs.
+  it "returns correct stats for the Gettysburg address" do 
+    text = File.read("spec/gettysburg_address.txt")
+    expected = {
+      character_count: 1467,
+      character_count_excluding_spaces: 1188,
+      line_count: 5,
+      word_count: 271,
+      sentence_count: 10,
+      paragraph_count: 3,
+      average_words_per_sentence: 27.1,
+      average_sentences_per_paragraph: 3.3
+    }
+    expect(analyze(text)).to eq(expected)
+  end
+
+  it "returns correct stats for I Have a Dream" do 
+    text = File.read("spec/i_have_a_dream.txt")
+    expected = {
+      character_count: 9722,
+      character_count_excluding_spaces: 7889,
+      line_count: 41,
+      word_count: 1734,
+      sentence_count: 84,
+      paragraph_count: 21,
+      average_words_per_sentence: 20.6,
+      average_sentences_per_paragraph: 4.0
+    }
+    expect(analyze(text)).to eq(expected)
+  end
 end
