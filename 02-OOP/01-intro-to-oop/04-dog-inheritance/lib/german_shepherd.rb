@@ -1,4 +1,2 @@
-require_relative 'dog'
-
-class GermanShepherd < Dog
+class GermanShepherd
 end
