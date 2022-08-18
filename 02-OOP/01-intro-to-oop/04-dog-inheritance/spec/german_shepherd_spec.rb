@@ -9,14 +9,14 @@ describe GermanShepherd do
   end
 
   describe "inheritance" do
-    it "should bark like a dog" do
+    xit "should bark like a dog" do
       german_shepherd = GermanShepherd.new
       dog = Dog.new
 
       expect(german_shepherd.bark).to eq(dog.bark)
     end
 
-    it "should add Dog as a superclass of GermanShepherd" do
+    xit "should add Dog as a superclass of GermanShepherd" do
       expect(GermanShepherd.superclass).to eq(Dog)
     end
   end
