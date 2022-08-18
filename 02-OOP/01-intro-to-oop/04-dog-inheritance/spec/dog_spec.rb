@@ -1,14 +1,10 @@
-require 'german_shepherd'
+require "dog"
 
-describe GermanShepherd do
-
-  describe 'inheritance' do
-    it 'should add Dog as a superclass of GermanShepherd' do
-      expect(GermanShepherd.superclass).to eq(Dog)
-    end
-
-    it 'should extend GermanShepherd with the instance methods of Dog' do
-      expect(GermanShepherd.instance_methods).to include(:bark)
+describe Dog do
+  describe "bark" do
+    it "can bark" do
+      dog = Dog.new
+      expect(dog.bark).to eq("woof woof")
     end
   end
 end
