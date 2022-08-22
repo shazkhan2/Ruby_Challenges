@@ -1,5 +1,5 @@
 class Dog
-	def bark
-		"woof woof"
-	end
+  def bark
+    "woof woof"
+  end
 end
