@@ -1,6 +1,6 @@
 require "rspec/core/rake_task"
 RSpec::Core::RakeTask.new(:spec) do |t|
-  t.rspec_opts = "--require ./bonus_formatter.rb --format BonusFormatter"
+  t.rspec_opts = "--format documentation"
 end
 
 desc "Look for style guide offenses in your code"
@@ -10,12 +10,22 @@ end
 
 desc "Launch tests for the meal namespace only"
 task :int_meal do
-  sh "rspec -t meal || true"
+  sh "rspec -t meal --format documentation || true"
 end
 
 desc "Launch tests for the customer namespace only"
 task :int_customer do
-  sh "rspec -t customer || true"
+  sh "rspec -t customer --format documentation || true"
+end
+
+desc "Launch tests for the employee namespace only"
+task :int_employee do
+  sh "rspec -t employee --format documentation || true"
+end
+
+desc "Launch tests for the order namespace only"
+task :int_order do
+  sh "rspec -t _order --format documentation || true"
 end
 
 task default: [:rubocop, :spec]
@@ -23,3 +33,8 @@ task default: [:rubocop, :spec]
 task meal: [:rubocop, :int_meal]
 
 task customer: [:rubocop, :int_customer]
+
+task employee: [:rubocop, :int_employee]
+
+task order: [:rubocop, :int_order]
+

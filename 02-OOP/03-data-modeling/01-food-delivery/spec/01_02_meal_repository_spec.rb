@@ -1,4 +1,5 @@
 require "fileutils"
+require "pry-byebug"
 require_relative "support/csv_helper"
 
 begin
