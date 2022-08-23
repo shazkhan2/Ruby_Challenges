@@ -16,7 +16,7 @@ RSpec.describe Car do
   subject(:car) { described_class.new(color) }
 
   describe "#permitted_color?" do
-    context "with valid color" do
+    context "with permitted color" do
       let(:color) { "red" }
 
       it "returns true" do
