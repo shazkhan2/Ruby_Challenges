@@ -1,36 +1,39 @@
 require "rspec"
 
 class Calculator
-  def add(a, b)
+  def self.add(a, b)
     a + b
   end
 
-  def subtract(a, b)
+  def self.subtract(a, b)
     a - b
   end
 
-  def multiply(a, b)
+  def self.multiply(a, b)
     a * b
   end
 
-  def divide(a, b)
+  def self.divide(a, b)
     a / b
   end
 
-  def exponentiate(a, b)
+  def self.exponentiate(a, b)
     a**b
   end
 
-  def modulo(a, b)
+  def self.modulo(a, b)
     a % b
+  end
+
+  def self.square_root(a)
+    Math.sqrt(a)
   end
 end
 
 RSpec.describe Calculator do
   describe "#add" do
     it "can add two numbers together" do
-      calculator = Calculator.new
-      expect(calculator.add(1, 2)).to eq(3)
+      expect(Calculator.add(1, 2)).to eq(3)
     end
   end
 
@@ -51,6 +54,10 @@ RSpec.describe Calculator do
   end
 
   describe "#modulo" do
+    # TODO
+  end
+
+  describe "#square_root" do
     # TODO
   end
 end
