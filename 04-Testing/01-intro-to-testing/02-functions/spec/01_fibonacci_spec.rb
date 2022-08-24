@@ -13,10 +13,10 @@ RSpec.describe "fibonacci" do
   end
 
   it "returns correct number in second place" do
-    # TODO
+    pending "TODO"
   end
 
   it "returns correct number in tenth place" do
-    # TODO
+    pending "TODO"
   end
 end

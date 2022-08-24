@@ -20,18 +20,21 @@
   - How to test an object
     - Testing Person
     - Testing Car
+    - Testing Calculator
 
 04-Making Changes (Refactoring)
 
 05-Advanced Testing
   - Iterators
+    - Test that all files in a folder are jpg files
+    - Test that all ruby files in a folder start with the line 'frozen_string_literal: true'
   - Error Catching
   - Checking collections (arrays, hashes)
   - Mocking/Stubbing interfaces
   - HTTP calls
   - Webmock
-  - Shoulda matchers
   - Doubles
+  - Spies
 
 
 Resources:
