@@ -15,10 +15,10 @@ end
 RSpec.describe Car do
   subject(:car) { described_class.new(color) }
 
-  context "with valid color" do
-    let(:color) { "red" }
+  describe "#permitted_color?" do
+    context "with permitted color" do
+      let(:color) { "red" }
 
-    describe "#permitted_color?" do
       it "returns true" do
         expect(car.permitted_color?).to eq true
       end
@@ -29,12 +29,10 @@ RSpec.describe Car do
 
       it { is_expected.to be_permitted_color }
     end
-  end
 
-  context "with unpermitted color" do
-    let(:color) { "octarine" }
+    context "with unpermitted color" do
+      let(:color) { "octarine" }
 
-    describe "#permitted_color?" do
       it "returns false" do
         # TODO
       end
