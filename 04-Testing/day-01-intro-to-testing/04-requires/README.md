@@ -5,3 +5,5 @@ lib/class.rb
 spec/class_spec.rb
 
 Running rake should run the spec files, which should correctly load the classes, and pass all specs.
+
+The goal here is to get comfortable flipping between multiple files - the spec and the class
