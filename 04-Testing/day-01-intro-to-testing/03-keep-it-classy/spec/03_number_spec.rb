@@ -10,7 +10,7 @@ class SingleDigit
   end
 end
 
-describe SingleDigit do
+RSpec.describe SingleDigit do
   # There are differences between let and subject that you can research.
   # In general, the subject is used to declare the test subject.
   # https://stackoverflow.com/questions/38437162/whats-the-difference-between-rspecs-subject-and-let-when-should-they-be-used
@@ -59,7 +59,7 @@ end
 
 # ASSIGNMENT
 
-describe Array do
+RSpec.describe Array do
   context 'when my_array has perfect values' do
     # Write a let variable 'my_array' that passes all tests.
 

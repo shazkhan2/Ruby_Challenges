@@ -12,9 +12,9 @@ RSpec.describe PassportValidator do
   context "for small passport samples" do
     let(:filename) { "tier1_passports.yml" }
 
-    describe "#valid_tier1_count" do
-      it "validates correct number of tier 1 passports" do 
-        expect(subject.valid_tier1_count).to eq 2
+    describe "#valid_tier_1_count" do
+      it "validates correct number of tier 1 passports" do
+        expect(subject.valid_tier_1_count).to eq 2
       end
     end
   end

@@ -16,7 +16,7 @@ method to check that the provided age is at least 16, then test it.
 
 ## Go Further
 
-Once all your tests are green, add some more tests (or extend the class with more methods, and test those!)
+Once all your tests are written and green, add some more tests (or extend the class with more methods, and test those!)
 
 ## Key Learning Points
 

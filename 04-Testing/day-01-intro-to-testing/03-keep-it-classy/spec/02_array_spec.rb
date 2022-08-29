@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-describe Array do
+RSpec.describe Array do
   # An implicitly defined 'subject' is available when the outermost example
   # group is a class. The 'subject' will be an instance of that class.
   # https://relishapp.com/rspec/rspec-core/v/2-11/docs/subject/implicitly-defined-subject
@@ -69,7 +69,7 @@ describe Array do
 end
 
 # ASSIGNMENT
-describe Array do
+RSpec.describe Array do
   context 'when updating an implicit subject' do
     # remove the 'x' before running this test
     xit 'is empty' do

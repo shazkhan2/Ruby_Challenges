@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative '../lib/cat'
-require_relative '../spec/shared_example_spec'
+require_relative '../spec/shared_examples_spec'
 
 # The file order to complete this lesson:
 

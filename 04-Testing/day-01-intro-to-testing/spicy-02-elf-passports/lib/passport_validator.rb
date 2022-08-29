@@ -4,8 +4,6 @@ class PassportValidator
   end
 
   def valid_tier_1_count
-  end
-
-  def valid_tier_1_count
+    # TODO
   end
 end

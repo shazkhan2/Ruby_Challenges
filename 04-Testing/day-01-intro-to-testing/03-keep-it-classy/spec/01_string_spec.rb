@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-describe String do
+RSpec.describe String do
   # Let creates a helper method with a memoized value that is cached for the
   # same example but not across different examples. Let is lazy-evaluated;
   # it is not evaluated until the first time the method it defines is invoked.
@@ -37,7 +37,7 @@ end
 
 # ASSIGNMENT
 
-describe String do
+RSpec.describe String do
   # Create a let variable that will pass the first test.
 
   # remove the 'x' before running this test
