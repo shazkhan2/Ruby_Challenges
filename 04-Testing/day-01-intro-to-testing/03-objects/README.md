@@ -1,26 +1,17 @@
 ## Background & Objectives
 
-In the previous exercise, we were testing functions. Let's turn it up a notch and test some objects! 
+In the previous exercise, we were testing functions. Let's turn it up a notch and test some objects!
 
 ## Setup
 
-In this exercise, we'll be finishing the specs for some methods. There are already partial specs written; your job is to look at how they are done, and complete the spec. 
+In this exercise, we'll be finishing the specs for some classes. There are already partial specs written; your job is to look at how they are done, and complete the spec.
 
-The first method is designed to calculate a fibonacci number. A [**Fibonacci Number**](https://en.wikipedia.org/wiki/Fibonacci_number) is a number derived from a sequence that starts with `[0, 1]` and proceeds endlessly by summing the last two numbers of the sequence to add the next. Like so:
+## Person
+The first class is `Person`. The constructor takes a first and last name, and an age. You will need to finish the spec
+by testing the #full_name, #initials, and #can_buy_beer? methods.
 
-```ruby
-  [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55] # and so on and so on
-```
-
-In our method, we don't care about the sequence, just to get fibonacci number from its index in the sequence. Here are a few examples:
-
-```ruby
-  fibonacci(0) # => 0
-  fibonacci(3) # => 2
-  fibonacci(6) # => 8
-```
-
-The other method is [FizzBuzz](https://github.com/karnov/karnov-academy-challenges/tree/master/01-Ruby/02-arrays-iterations/04-fizzbuzz) that you may remember from earlier.
+Additionally, it looks like whoever wrote this class doesn't like beer - fix that mistake by changing the #can_buy_beer?
+method to check that the provided age is at least 16, then test it.
 
 
 ## Go Further
@@ -30,3 +21,5 @@ Once all your tests are green, add some more tests (or extend the class with mor
 ## Key Learning Points
 
 - Learn to read a class and think of a an appropriate test suite for it
+- Think about what is and isn't important to test. You shouldn't need to test the #initialize method (there shouldn't be
+  any behavior in it), but the rest of the public API is fair game.
