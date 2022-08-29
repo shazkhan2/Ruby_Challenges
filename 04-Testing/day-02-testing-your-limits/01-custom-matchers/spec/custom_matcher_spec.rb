@@ -1,9 +1,5 @@
 # frozen_string_literal: true
 
-# If you need to test a condition that does not have a built-in matcher,
-# you can create your own.
-# https://relishapp.com/rspec/rspec-expectations/v/3-9/docs/custom-matchers
-
 describe 'defining custom matchers' do
   context 'when reusing a matcher that is in scope' do
     matcher :be_divisible_by_four do

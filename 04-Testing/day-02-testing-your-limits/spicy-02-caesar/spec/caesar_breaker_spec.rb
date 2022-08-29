@@ -3,23 +3,11 @@
 require_relative '../lib/caesar_breaker'
 require_relative '../lib/caesar_translator'
 
-# The file order to complete this lesson:
-
-# 1. Familarize yourself with the four lib/ files.
-#    - lib/caesar_main
-#    - lib/caesar_breaker
-#    - lib/caesar_translator which is based on the typical Caesar Cipher
-#    - lib/database (module)
-# 2. Check out the completed tests in spec/caesar_translator.
-# 3. Complete spec/caesar_breaker_spec.
-
-# The CaesarBreaker class creates the 26 possible translations (using the
-# CaesarTranslator class) & saves them in a yaml file (using a Database module).
-
 # Let's write tests for the CaesarBreaker class & the included Database module.
 
 # In this lesson, you will be writing tests for 3 methods -
 # #create_decrypted_messages, #save_decrypted_messages, and #save_to_yaml.
+
 # In addition, you will learn about testing module methods and how to handle
 # testing methods that can raise errors.
 

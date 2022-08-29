@@ -2,16 +2,6 @@
 
 require_relative '../lib/caesar_translator'
 
-# The file order to complete this lesson:
-
-# 1. Familarize yourself with the four lib/ files.
-#    - lib/caesar_main
-#    - lib/caesar_breaker
-#    - lib/caesar_translator which is based on the typical Caesar Cipher
-#    - lib/database (module)
-# 2. Check out the completed tests in spec/caesar_translator.
-# 3. Complete spec/caesar_breaker_spec.
-
 # This spec file is for the CaesarTranslator class, which is used by the
 # CaesarBreaker class.
 
