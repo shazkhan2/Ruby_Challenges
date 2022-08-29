@@ -5,7 +5,7 @@ class Pet
   attr_reader :name, :breed, :color
 
   def initialize(name, breed = nil, color = nil)
-    @name = name
+    @name  = name
     @breed = breed
     @color = color
   end

@@ -6,7 +6,7 @@
 #    - lib/pet.rb is the parent 'Pet' class of 'Cat' and 'Dog'
 #    - lib/cat.rb is a subclass 'Cat'
 #    - lib/dog.rb is a subclass 'Dog'
-# 2. Review the tests in spec/shared_example_spec.rb
+# 2. Review the tests in spec/shared_examples_spec.rb
 # 3. Complete both spec/cat_spec.rb or spec/dog_spec.rb
 
 # Start with reading about the use of shared examples:

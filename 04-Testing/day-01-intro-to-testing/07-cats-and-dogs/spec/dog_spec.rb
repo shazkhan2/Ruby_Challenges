@@ -9,14 +9,14 @@ require_relative '../spec/shared_examples_spec'
 #    - lib/pet.rb is the parent 'Pet' class of 'Cat' and 'Dog'
 #    - lib/cat.rb is a subclass 'Cat'
 #    - lib/dog.rb is a subclass 'Dog'
-# 2. Review the tests in spec/shared_example_spec.rb
+# 2. Review the tests in spec/shared_examples_spec.rb
 # 3. Complete both spec/cat_spec.rb or spec/dog_spec.rb
 
 describe Dog do
   subject(:toby) { described_class.new('Toby', nil, 'brown') }
 
   # Before you begin this file, make sure you have read the shared
-  # example file: 11a_shared_examples_spec.rb. This test references
+  # example file: shared_examples_spec.rb. This test references
   # that file's first test in the below 'include_examples' line.
   context 'when Dog is a child class of Pet' do
     include_examples 'base class method name'

@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-# very basic Drink class
 class Drink
   attr_reader :type, :ounces
 
