@@ -15,7 +15,7 @@ method to check that the provided age is at least 16, then test it.
 
 ## Car
 Next, test the car class. Here we're going to use some of the different styles allowed by rspec - the three tests all
-are equivelent to one another, just differernt ways to write the same thing.
+are equivelent to one another, just different ways to write the same thing.
 
 ## Calculator
 Finally, apply what you've learned to write a spec for the calculator class. Use both `expect(...).to eq(...)` and
