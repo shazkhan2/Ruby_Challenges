@@ -4,7 +4,7 @@
 # evaluated into a Boolean.
 # https://eddyluten.com/rspec-be_truthy-exists-or-be-true
 
-describe 'truthy and falsy' do
+RSpec.describe 'truthy and falsy' do
   context 'almost everything is truthy' do
     it 'is truthy' do
       expect('foo').to be_truthy
