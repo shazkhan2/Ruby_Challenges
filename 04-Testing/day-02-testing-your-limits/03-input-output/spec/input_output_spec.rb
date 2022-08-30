@@ -2,7 +2,7 @@
 
 require_relative '../lib/input_output'
 
-describe NumberGame do
+RSpec.describe NumberGame do
   subject(:game) { described_class.new }
 
   describe '#initialize' do

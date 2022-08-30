@@ -8,7 +8,7 @@ require_relative '../lib/random_number'
 # files at the same time. We will look at every method and determine if it will
 # need to be tested or not.
 
-describe BinaryGame do
+RSpec.describe BinaryGame do
   describe '#initialize' do
     # Initialize -> No test necessary when only creating instance variables.
   end

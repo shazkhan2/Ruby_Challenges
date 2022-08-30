@@ -32,7 +32,7 @@ require_relative '../lib/random_number'
 # methods. This concept is called polymorphism.
 # https://www.geeksforgeeks.org/polymorphism-in-ruby/
 
-describe BinarySearch do
+RSpec.describe BinarySearch do
   describe '#make_guess' do
     # Below (commented out) is the previous generic 'random_number' object
     # used in TDD. Compare it to the new verifying instance_double for the

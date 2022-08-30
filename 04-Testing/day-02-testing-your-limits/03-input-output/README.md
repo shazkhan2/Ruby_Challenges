@@ -23,3 +23,6 @@ To get your bearings, remember to reference the following lines:
 describe -> Name of the method that is being tested.
 context ->  Explains the conditions of the test.
 it ->       Explains the results of the test.
+
+
+Read through the spec file and complete the six assignments!
