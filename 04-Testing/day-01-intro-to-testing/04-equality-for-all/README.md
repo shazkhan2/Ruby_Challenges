@@ -1,7 +1,3 @@
-## Objectives
-
-Read the inline comments to follow the assignment :)
-
 ## Equality
 ```ruby
 # 'eq' checks for equal VALUE.
@@ -9,7 +5,7 @@ Read the inline comments to follow the assignment :)
 # 'equal' checks for OBJECT IDENTITY.
 # 'be' checks for OBJECT IDENTITY.
 
-RSpec.RSpec.describe 'differences between eq, eql, equal, and be' do
+RSpec.describe 'differences between eq, eql, equal, and be' do
   context 'my_score vs. your_score' do
     let(:my_score) { 10.0 }
     let(:your_score) { 10 }
