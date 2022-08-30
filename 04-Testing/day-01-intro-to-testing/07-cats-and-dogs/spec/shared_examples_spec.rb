@@ -1,17 +1,5 @@
 # frozen_string_literal: true
 
-# The file order to complete this lesson:
-
-# 1. Familiarize yourself with the three lib/ files.
-#    - lib/pet.rb is the parent 'Pet' class of 'Cat' and 'Dog'
-#    - lib/cat.rb is a subclass 'Cat'
-#    - lib/dog.rb is a subclass 'Dog'
-# 2. Review the tests in spec/shared_examples_spec.rb
-# 3. Complete both spec/cat_spec.rb or spec/dog_spec.rb
-
-# Start with reading about the use of shared examples:
-# https://relishapp.com/rspec/rspec-core/docs/example-groups/shared-examples
-
 # These tests are dependent on using the implicit 'subject' when they are
 # included in another spec file. This file is not intended to be used alone.
 # If you run rspec on this file, there will be 'no examples found' because
