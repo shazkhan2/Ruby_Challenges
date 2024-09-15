@@ -12,7 +12,7 @@ end
 
 def does_it_contain?(a_string, substring)
   # TODO: find out if the substring is contained in a_string
-  # example: the inputs "monkeypants" and "pants" should return true
+  # example: the inputs "monkeypants" and "pants" should return true .
   a_string.include?substring
 end
 
