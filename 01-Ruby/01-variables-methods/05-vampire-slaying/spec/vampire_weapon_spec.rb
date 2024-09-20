@@ -5,7 +5,7 @@ describe 'The method vampire_reaction' do
     expect(vampire_reaction('sword')).to be_a String
   end
 
-  it 'makes the vampire laugh at ineffective weapons' do
+  it 'makes the vampire laughs at ineffective weapons' do
     expect(vampire_reaction('pizza cutter')).to eq 'The vampire laughs at your ineffective weapon.'
   end
 
