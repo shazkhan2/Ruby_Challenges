@@ -14,7 +14,6 @@ def vampire_reaction_enhanced(your_weapon, material)
   end
 end
 
-
 # def vampire_reaction(your_weapon)
 #   # Your code here
 # end

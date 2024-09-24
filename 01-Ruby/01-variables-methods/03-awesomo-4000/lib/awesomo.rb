@@ -9,7 +9,7 @@ SETTINGS = [
   ' studies law at Trump University! '
 ]
 
-RELATION = [
+RELATIONS = [
   'His girlfriend',
   'His BFF',
   'His grandma',
@@ -19,32 +19,42 @@ RELATION = [
 ]
 
 PUNCHLINES = [
-  ' is a doorman who always highfives children of divorce.',
+  ' is a doorman who always high-fives children of divorce.',
   ' is a coconut or something.',
   ' is a dolphin\'s only hope to become Magic Mike.',
   ' is secretly MTV\'s Dan Cortese.',
   ' aims to become Mr. Olympia 1983.',
-  ' a millionaire living in a garbage truck.',
+  ' is a millionaire living in a garbage truck.',
   ' plays World of Warcraft using only elbows.',
   ' and him plot to steal $80 million worth of recycling cans.'
 ]
 
 def plot_generator
-  # TODO: your code here
+  actor = pick_actor
+  setting = pick_setting
+  relation = pick_relation
+  punchline = pick_punchline
+
+  "#{actor} #{setting} #{relation}. #{punchline}"
 end
 
 def pick_actor
-  # TODO: your code here
+  ACTORS.sample
 end
 
 def pick_setting
-  # TODO: your code here
+  setting = SETTINGS.sample
+  "#{setting}"
 end
 
 def pick_relation
-  # TODO: your code here
+  "He lives with #{RELATIONS.sample}"
+
 end
 
 def pick_punchline
-  # TODO: your code here
+  punchline = PUNCHLINES.sample
+  "In his other life, he #{punchline}"
 end
+
+puts plot_generator
